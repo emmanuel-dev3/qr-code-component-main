@@ -1,0 +1,60 @@
+:root {
+  --white: hsl(0, 0%, 100%);
+  --slate-300: hsl(212, 45%, 89%);
+  --slate-500: hsl(216, 15%, 48%);
+  --slate-900: hsl(218, 44%, 22%);
+}
+
+/* Fonts */
+@font-face {
+  font-family: outfit-bold;
+  src: url(font/Outfit-Bold.ttf);
+}
+
+@font-face {
+  font-family: outfit-regular;
+  src: url(font/Outfit-Regular.ttf);
+}
+
+body {
+  margin: 0px;
+}
+
+h2 {
+  font-family: outfit-bold;
+  color: var(--slate-900);
+  margin-top: 0.7rem;
+  font-size: 22px;
+}
+
+p {
+  font-family: outfit-regular;
+  font-size: 15px;
+  color: var(--slate-500);
+  line-height: 1.4rem;
+}
+
+img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.parent {
+  height: 100vh;
+  background-color: var(--slate-300);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.children {
+  width: 17rem;
+  padding: 0.8rem;
+  background-color: var(--white);
+  border-radius: 1rem;
+}
+
+.content {
+  text-align: center;
+  padding: 0.4rem 0.3rem;
+}
